@@ -1,0 +1,12 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "anthropic/claude-sonnet-4",
+  "instructions": ["AGENTS.md"],
+  "mcp": {
+    "example": {
+      "type": "local",
+      "command": ["python", "-m", "my_mcp_server"],
+      "enabled": false
+    }
+  }
+}
