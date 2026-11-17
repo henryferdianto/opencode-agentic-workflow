@@ -15,3 +15,9 @@ models/*
 reports/figures/*
 !reports/figures/.gitkeep
 opencode.json
+
+.pytest_cache/
+*.db
+submission.csv
+reports/*.csv
+index/
